@@ -16,76 +16,10 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="style.css">
 
     <title>Frontend Mentor | QR code component</title>
 
-    <style>
-      * {        
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      html {
-        /* 10/16 * 100 = 62.5% = 10px = 1rem
-        This will ensure the design always remains
-        relative to the user's set font-size
-      */
-        font-size: 62.5%;
-      }
-      body {
-        background-color: hsl(212, 45%, 89%);
-        font-family: "Outfit", sans-serif;
-        font-size: 1.5rem;
-      }
-      .qr-card {
-        color: hsl(220, 15%, 55%);
-        background-color: hsl(0, 0%, 100%);
-        margin: 10rem auto;
-        text-align: center;
-        padding: 1rem 1rem 3rem 1rem;
-        box-shadow: 2px 5px 36px 0px rgba(0,0,0,0.1);
-        max-width: 22rem;
-        border-radius: 1rem;
-
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-      }
-      .qr-img {
-        width: 100%;
-        border-radius: 1rem;
-      }
-      .qr-text {
-        padding: 0 1.5rem;
-
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-      }
-      .qr-text p {
-        margin-block: 0;
-      }
-      .qr-heading {
-        color: hsl(218, 44%, 22%);
-        font-weight: 700;
-      }
-      .qr-description {
-        font-size: 1rem;
-      }
-      .attribution {
-        font-size: 1.1rem;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-      @media (max-width: 52em){
-        .container {
-          margin: auto;
-          max-width: 37.5rem;
-        }
-      }
-    </style>
   </head>
   <body>
       <article class="qr-card">
